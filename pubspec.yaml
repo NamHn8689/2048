@@ -1,0 +1,33 @@
+name: flutter_2048
+description: 2048
+publish_to:
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.3
+
+  flutter_launcher_icons: ^0.7.5
+
+flutter_icons:
+  image_path: "assets/images/icon2048.png"
+  ios: true
+  android: "launcher_icon"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: RobotoSlab
+      fonts:
+        - asset: assets/fonts/RobotoSlab-Regular.ttf
+        - asset: assets/fonts/RobotoSlab-Light.ttf
+        - asset: assets/fonts/RobotoSlab-Bold.ttf
